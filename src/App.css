@@ -1,0 +1,8 @@
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.features-item{
+  box-shadow: 1px 2px 3px ;
+}
