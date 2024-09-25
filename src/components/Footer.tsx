@@ -8,7 +8,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-4">
                     <img src="../img/footer-youtube.png" alt="" />
-                    <img src="../img/footer-instagram.png" alt="" />
+                    <img src="../img/footer-instagram.png" alt="" />    
                     <img src="../img/footer-github.png" alt="" />
                     <img src="../img/footer-linkedin.png" alt="" />
                 </div>
