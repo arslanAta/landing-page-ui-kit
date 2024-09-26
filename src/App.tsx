@@ -21,7 +21,6 @@ function App() {
       <Features/>
       <Center/>
       <Metrics/>
-      
       <Stories/>
       <Plans/>
       <Team/>

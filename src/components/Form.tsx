@@ -1,4 +1,5 @@
 const Form = () => {
+    const path = window.location.href
     return (
         <div className='py-16 px-4'>
             <div className="container">
@@ -9,30 +10,30 @@ const Form = () => {
                         <div className='basis-1/2'>
                             <ul className='font-thin space-y-3'>
                                 <li className='flex gap-2'>
-                                    <img src="../img/phone.png" alt="" />
+                                    <img src={`${path}./img/phone.png`} alt="" />
                                     <h3>+0123456789</h3>
                                 </li>
                                 <li className='flex gap-2'>
-                                    <img src="../img/msg.png" alt="" />
+                                    <img src={`${path}./img/msg.png`} alt="" />
                                     <h3>Hello@animaapp.com</h3>
                                 </li>
                             </ul>
                             <div className='mt-10'>
                                 <h1 className='text-2xl font-semibold'>Connect with us</h1>
                                 <div className="flex gap-5 pt-4">
-                                    <img src="../img/twitter.png" alt="" />
-                                    <img src="../img/instagram.png" alt="" />
-                                    <img src="../img/any.png" alt="" />
+                                    <img src={`${path}./img/twitter.png`} alt="" />
+                                    <img src={`${path}./img/instagram.png`} alt="" />
+                                    <img src={`${path}./img/any.png`} alt="" />
                                 </div>
                             </div>
                         </div>
                         <div className='basis-1/2 space-y-4 max-lg:mt-4'>
                             <div className='w-full lg:w-2/3 rounded-xl flex items-center gap-3 border px-4'>
-                                <img src="../img/user.png" alt="" />
+                                <img src={`${path}./img/user.png`} alt="" />
                                 <input type="text" className='py-3 w-full font-light outline-none' />
                             </div>
                             <div className='w-full lg:w-2/3 rounded-xl flex items-center gap-3 border px-4'>
-                                <img src="../img/envelope.png" alt="" />
+                                <img src={`${path}./img/envelope.png`} alt="" />
                                 <input type="text" className='py-3 w-full font-light outline-none' />
                             </div>
                             <button className='w-48 bg-primaryGreen py-4 rounded-2xl text-white'>Submit</button>

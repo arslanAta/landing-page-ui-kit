@@ -1,4 +1,5 @@
 const Upload = () => {
+    const path = window.location.href
     return (
         <div className="py-10 px-4">
             <div className="container">
@@ -9,11 +10,11 @@ const Upload = () => {
                             <p className="text-xl mt-6 font-normal">Break the Figma limits and explore the endless possibilities with Anima.</p>
                             <button className="mt-10 flex gap-2 justify-center bg-primaryGreen text-white w-56 py-4 rounded-3xl text-center">
                                 <span>Get started</span>
-                                <img src="../img/arrowwhite.png" alt="" />
+                                <img src={`${path}./img/arrowwhite.png`} alt="" />
                             </button>
                         </div>
                         <div className="">
-                            <img src="../img/mockup.png" alt=""/>
+                            <img src={`${path}./img/mockup.png`} alt=""/>
                         </div>
                     </div>
                 </div>

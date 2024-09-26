@@ -1,11 +1,12 @@
 const Hero = () =>{
+    const path = window.location.href
     return(
         <div className="h-screen w-full">
             <div className="container h-full">
                 <div className="h-[90px] w-full">
                     <div className="h-full flex max-lg:justify-center justify-between items-center">
                         <div className="flex gap-3 items-center">
-                            <img src="../img/logomark.png" alt="" />
+                            <img src={`${path}./img/logomark.png`} alt="" />
                             <h1 className="text-xl font-semibold">Landing Page</h1>
                         </div>
                         <div className="max-lg:hidden flex gap-4 text-sm"> 
@@ -26,7 +27,7 @@ const Hero = () =>{
                             </div>
                         </div>
                         <div className="max-lg:pt-7">
-                            <img src="../img/visuals.png" alt="" />
+                            <img src={`${path}./img/visuals.png`} alt="" />
                         </div>
                     </div>
                 </div>
